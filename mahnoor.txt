@@ -1,0 +1,34 @@
+
+How to launch swi-prolog on command line?
+Answer: sudo apt-add-respository ppa:swi prolog/stable
+	sudo apt-get update
+	sudo apt-get install swi-prolog
+What is the extension of a prolog Knowledge Base?
+Answer:Knowledge base and prolog programming is all about writing knowledge bases and prolog program simply are kanowlegde base.
+How to load a knowledge base in prolog
+Answer:A collection of facts and rules is called a knowledge base (or a database) and Prolog programming is all about writing knowledge bases. That is, Prolog programs simply are knowledge bases, collections of facts and rules which describe some collection of relationships that we find interesting
+How to exit a prolog session?
+Answer: halt/0
+How to get help on a topic from within prolog?
+Answer:'h'gets us the help  action.
+What is an atom?
+Answer:An atom is:
+Anything enclosed in single quotes (e.g. 'Whatever you like').
+Any sequence of characters, numbers and/or the underscore character which is preceded by a lower case character (e.g. this_IS_an_atom).
+Any continuous sequence of the symbols: +, -, *, /, \, ^, >, <, =, ', :, ., ?, @, #, $, &. (e.g. ***+***+@).
+Any of the special atoms: [], {}, ;, !.
+What is a term?
+Answer:All Prolog data structures are called terms. A term is either:
+A constant, which can be either an atom or a number.
+A variable.
+A compound term.
+What is functor?
+Answer:In Prolog, the word functor is used to refer to the atom at the start of a structure, along with its arity, that is, the number of arguments it takes. For example, in likes(mary, pizza), likes/2 is the functor. In a more complex structure, like
+What are complex terms?
+Answer:The number of arguments that a complex term has is called its arity.
+What is predicate?
+Answer:The predicate name is a Prolog atom. ... A predicate with name Pred and N arguments is denoted by Pred/N, which is called a predicate indicator. N is called the arity of the predicate. A predicate is defined by a collection of clauses. A clause is either a rule or a fact
+What is arity of predicate?
+Answer:The arity of a relation (or predicate) is the dimension of the domain in the corresponding Cartesian product. (A function of arity n thus has arity n+1 considered as a relation.) The term springs from words like unary, binary, ternary, etc. ... In logic and philosophy, arity is also called adicity and degree.
+What is unification?
+Answer:The way in which Prolog matches two terms is called unification. ... The unification algorithm in Prolog is roughly this: df:un Given two terms and which are to be unified: If and are constants (i.e. atoms or numbers) then if they are the same succeed.
